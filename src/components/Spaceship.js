@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Spaceship extends React.Component {
+export default class Spaceship extends React.Component {
   render() {
     return (
       <div className="movie-card">
@@ -11,5 +11,3 @@ class Spaceship extends React.Component {
     );
   }
 }
-
-export default Spaceship;
